@@ -1,1 +1,3 @@
-console.log("Hola mundo!")
+const initDB = require("../config/db.js");
+
+initDB();
