@@ -6,6 +6,14 @@ const resolvers = {
             console.log("Obteniendo usuario");
             return null;
         }
+    },
+    Mutation: {
+        // User
+        register: (_, { input }, context) => {
+            console.log("Registrando usuarios");
+            console.log(input);
+            return null;
+        }
     }
 }
 
